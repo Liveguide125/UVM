@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liv3's Universal VR Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #fff;
+      border-radius: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 20px;
+      background-color: #333;
+      margin-top: 20px;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      background-color: #222;
+      padding: 10px 0;
+      text-align: center;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease;
+      border-radius: 15px;
+    }
+
+    nav a:hover {
+      background-color: #444;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    /* Styling for buttons */
+    button {
+      background-color: #000000;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border-radius: 15px;
+      margin-right: 10px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+
+<script>
+function openGtag()
+{
+    window.open("steam://rungameid/1533390")
+}
+
+function downloadYizzi()
+{
+    window.open("https://cdn.discordapp.com/attachments/1208274705958707252/1208299485915123732/Utilla_3.dll?ex=65e2c796&is=65d05296&hm=d63b49b79ab46c9af318a56ebb179ae52ae315bca1da332877a50f7ab717d722&")
+}
+
+function downloadUtilla()
+{
+    window.open("https://cdn.discordapp.com/attachments/1208274705958707252/1208299485516795934/YizziCamModV2_2_1.dll?ex=65e2c796&is=65d05296&hm=1dfb1e250697d7175157cee759249e5137f1128c7e5e2c8ab394c9ae3211b580&")
+}
+</script>
+
+</head>
+<body>
+
+  <header>
+    <h1>Liv3's Universal VR Menu. For Gorilla tag and some other things</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#open-games">Open Games</a>
+    <a href="#download-mods">Download Legal Mods</a>
+  </nav>
+
+  <div id="home" class="container">
+    <div class="content">
+      <h2>Welcome to the menu! Go ahead and look around to see what's possible with my menu!</h2>
+      <p>But make sure when opening games that you have the game owned and installed on steam!</p>
+    </div>
+  </div>
+
+  <div id="open-games" class="container">
+    <div class="content">
+      <h2>Open Games</h2>
+      <p>Open games here:</p>
+      <button onclick="openGtag()">Open Gorilla Tag.</button>
+    </div>
+  </div>
+
+  <div id="download-mods" class="container">
+    <div class="content">
+      <h2>Download Legal Mods</h2>
+      <p>Download legal mods here:</p>
+      <button onclick="downloadYizzi()">Download Yizzi's Camera Mod.</button>
+      <button onclick="downloadUtilla()">Download (kinda) fixed Utilla.</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Liv3 Universal VR Menu. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
